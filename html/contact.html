@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Contact Us</title>
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=bK5wYNrEhXvsg6VEeS0D9YDC9fdLwtXi"></script>
+		<link rel="stylesheet" href="../css/swiper-4.3.2.min.css">
+		<link rel="stylesheet" href="../css/contact.css">
+	</head>
+
+	<body>
+				<div class="fixed">
+			<div class="header">
+				<div class="logo-box">
+					<a href="../index.html"><img src="../img/logo.jpg" alt=""></a>
+				</div>
+				<div class="space"></div>
+				<div class="search-box">
+					<div><input type="text" placeholder="Please enter the search keywords" class="search-text"></div>
+					<div><button class="search-button"><img src="../img/search.png" alt=""></button></div>
+				</div>
+			</div>
+			<div class="nav-wrapper">
+				<ul class="nav-cd">
+					<li class="nav-text">
+						<a href="../index.html">HOME</a>
+					</li>
+					<li class="nav-text">
+						<a href="./about.html">ABOUT US</a>
+					</li>
+					<li class="nav-text up-menu">
+						<a href="./products.html">PRODUCTS</a>
+						<ul class="down-menu">
+							<li>
+								<a href="./products.html">Products</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-text up-menu">
+						<a href="./cases.html">CASS&SPARES</a>
+						<ul class="down-menu">
+							<li>
+								<a href="./cases.html">Cases</a>
+							</li>
+							<li>
+								<a href="./qualifications.html">Qualifications</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-text up-menu">
+						<a href="./news.html">NEWS</a>
+						<ul class="down-menu">
+							<li>
+								<a href="./news.html">News</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-text">
+						<a href="./contact.html" id="nav-text-active" class="nav-text-active">CONTACT US</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="body">
+			<div class="body-bg"></div>
+			<div class="about-content">
+				<ul class="content-nav">
+					<li class="home-logo">
+						<a href="../index.html" class="glyphicon glyphicon-home"></a>
+					</li>
+					<li class="content-nav-home">
+						<a href="../index.html">HOME</a>
+					</li>
+					<li class="content-nav-Symbol">></li>
+					<li class="content-nav-about">
+						<a href="./about.html">Contact Us</a>
+					</li>
+				</ul>
+				<div class="about-content-body">
+					<div class="about-content-body-left">
+						<div class="about-content-body-left-nav">&nbsp;&nbsp;&nbsp;
+							<a href="./contact.html">Contact Us</a>
+						</div>
+						<div class="about-content-body-left-nav-border"></div>
+						<div class="about-content-body-left-nav-Submenu about-content-body-left-nav-Submenu-active">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="./contact.html"><img src="../img/white-spot.png" alt="">&nbsp;contact us</a>
+						</div>
+					</div>
+					<div class="about-content-body-right">
+						<div class="about-content-body-right-nav">
+							<div class="about-content-body-right-border-one"></div>
+							<div class="about-content-body-right-text">Contact Us</div>
+							<div class="about-content-body-right-border-two"></div>
+						</div>
+						<div class="contact-title">ZHEJIANG CHUANGDI WATER TREATMENT EQUIPMENT INC</div>
+						<div class="contact-information-wrapper">
+							<div class="contact-body-information">
+								Tel：0580-8288222<br> Fax：0580-8288222
+								<br> E-Mail：13957212210@139q.com
+								<br> Location：Dinghai district, zhoushan city, zhejiang province
+							</div>
+							<div class="contact-code"></div>
+						</div>
+						<div id="container"></div>
+						<div class="online-wrapper">
+							<div class="online-title">
+								<img src="../img/online.png" alt="">
+								<span class="online-title-text">Online Message</span>
+								<div class="online-title-border"></div>
+							</div>
+							<div class="online-form">
+								<form class="form-box" onsubmit="alert('Thank you. The message was successful.')">
+									<div class="form-top">
+										<div><label for="user-Name">name:</label><input type="text" id="user-Name" pattern="^[a-z0-9_-]{3,16}$" required></div>
+										<div><label for="user-e-mail">e-mail:</label><input type="text" id="user-e-mail" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required></div>
+										<div><label for="user-tel">tel:</label><input type="text" id="user-tel" pattern="^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$"></div>
+									</div>
+									<div class="user-online-wrapper"><label for="user-online" id="user-online-title">content:</label><textarea id="user-online" style="resize:none" required></textarea></div>
+									<div class="form-btn-box">
+										<button type="submit" class="submit">submit</button>
+										<button type="reset" class="reset">reset</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-content">
+				<div class="footer-content-left">
+					<div class="phone-logo"></div>
+					<div class="contact-information">
+						<p class="tel-num">TEL:0580-8288222</p>
+						<br>
+						<p>
+							Fax：0580-8288222<br> E-mail：13957212210@139q.com
+							<br> Add：Dinghai district, zhoushan city, zhejiang province
+						</p>
+					</div>
+				</div>
+				<div class="code"></div>
+			</div>
+			<div class="Copyright-border"></div>
+			<div class="Copyright">
+				<span>© COPYRIGHT  ZHEJIANG CHUANGDI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALL RIGHT RESERVED </span>
+				<span class="Copyright-Newedge">Powered by：<a target="_blank" href="http://www.2000new.com/ ">Newedge</a></span>
+			</div>
+		</div>
+		<script src="../js/swiper-4.3.2.min.js"></script>
+		<script>
+			var map = new BMap.Map("container");
+			var point = new BMap.Point(122.1065347073, 30.1225361252);
+			map.centerAndZoom(point, 20);
+			var marker = new BMap.Marker(point);
+			map.addOverlay(marker);
+			var opts = {
+				width: 300,
+				height: 100,
+			}
+			var infoWindow = new BMap.InfoWindow("No.96 Sanjiang Road, Ma Ao street, Dinghai District, Zhoushan, Zhejiang", opts);
+			map.openInfoWindow(infoWindow, map.getCenter());
+			$(".nav-text").mouseenter(function() {
+				$(this).children("a").addClass("nav-text-active")
+				$(this).mouseleave(function() {
+					$(this).children("a").removeClass("nav-text-active")
+				})
+			})
+			$(".up-menu").mouseenter(function() {
+				$(this).children(".down-menu").slideDown(1000)
+				$(".up-menu").mouseleave(function() {
+					$(this).children(".down-menu").stop(true, true).slideUp(1000)
+				})
+			})
+			$(".down-menu>li>a").mouseenter(function() {
+				$(this).css("color", "#7abefc")
+				$(this).mouseleave(function() {
+					$(this).css("color", "white")
+				})
+			})
+		</script>
+	</body>
+
+</html>

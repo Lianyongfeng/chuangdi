@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>ABOUT US</title>
+		<script src="../js/jquery-1.11.3.min.js"></script>
+		<link rel="stylesheet" href="../css/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/about.css">
+	</head>
+
+	<body>
+		<div class="fixed">
+			<div class="header">
+				<div class="logo-box">
+					<a href="../index.html"><img src="../img/logo.jpg" alt=""></a>
+				</div>
+				<div class="space"></div>
+				<div class="search-box">
+					<div><input type="text" placeholder="Please enter the search keywords" class="search-text"></div>
+					<div><button class="search-button"><img src="../img/search.png" alt=""></button></div>
+				</div>
+			</div>
+			<div class="nav-wrapper">
+				<ul class="nav-cd">
+					<li class="nav-text">
+						<a href="../index.html">HOME</a>
+					</li>
+					<li class="nav-text">
+						<a href="./about.html" id="nav-text-active" class="nav-text-active">ABOUT US</a>
+					</li>
+					<li class="nav-text up-menu">
+						<a href="./products.html">PRODUCTS</a>
+						<ul class="down-menu">
+							<li>
+								<a href="./products.html">Products</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-text up-menu">
+						<a href="./cases.html">CASS&SPARES</a>
+						<ul class="down-menu">
+							<li>
+								<a href="./cases.html">Cases</a>
+							</li>
+							<li>
+								<a href="./qualifications.html">Qualifications</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-text up-menu">
+						<a href="./news.html">NEWS</a>
+						<ul class="down-menu">
+							<li>
+								<a href="./news.html">News</a>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-text">
+						<a href="./contact.html">CONTACT US</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="body">
+			<div class="body-bg"></div>
+			<div class="about-content">
+				<ul class="content-nav">
+					<li class="home-logo">
+						<a href="../index.html" class="glyphicon glyphicon-home"></a>
+					</li>
+					<li class="content-nav-home">
+						<a href="../index.html">HOME</a>
+					</li>
+					<li class="content-nav-Symbol">></li>
+					<li class="content-nav-about">
+						<a href="./about.html">ABOUT US</a>
+					</li>
+				</ul>
+				<div class="about-content-body">
+					<div class="about-content-body-left">
+						<div class="about-content-body-left-nav">&nbsp;&nbsp;&nbsp;
+							<a href="./about.html">About Us</a>
+						</div>
+						<div class="about-content-body-left-nav-border"></div>
+						<div class="about-content-body-left-nav-Submenu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<a href="./about.html"><img src="../img/white-spot.png" alt="">&nbsp;about us</a>
+						</div>
+					</div>
+					<div class="about-content-body-right">
+						<div class="about-content-body-right-nav">
+							<div class="about-content-body-right-border-one"></div>
+							<div class="about-content-body-right-text">About Us</div>
+							<div class="about-content-body-right-border-two"></div>
+						</div>
+						<div class="about-content-body-right-about"></div>
+						<div class="about-content-body-right-text-wrapper">
+							<p class="about-content-body-right-text-one">Zhejiang Chuangdi water treatment equipment Inc was established in 2016. The registered capital is 10 million. The company is mainly engaged in the development and manufacture of water treatment equipment. It is a domestic specialized production plant for swimming pool water pump, and a large number of people have come to cooperate with them for more than two years. At present, the factory mainly produces swimming pool pumps, each pump before the factory has been strictly tested to ensure that the quality of each pump is up to standard.</p>
+							<p class="about-content-body-right-text-two">
+								Vision of the company:<br> We are committed to providing better products and services for the development and upgrading of water treatment equipment.<br> And to be the excellent water treatment equipment company
+							</p>
+							<div class="about-content-logo">
+								<div class="company-wrapper">
+									<div class="company-logo"></div>
+									<div class="company-logo-text">FOUNDED IN</div>
+									<div class="company-logo-num">2016</div>
+								</div>
+								<div class="money-wrapper">
+									<div class="money-logo"></div>
+									<div class="company-logo-text">INITIAL CAPITAL</div>
+									<div class="company-logo-num">10000000</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-content">
+				<div class="footer-content-left">
+					<div class="phone-logo"></div>
+					<div class="contact-information">
+						<p class="tel-num">TEL:0580-8288222</p>
+						<br>
+						<p>
+							Fax：0580-8288222<br> E-mail：13957212210@139q.com
+							<br> Add：Dinghai district, zhoushan city, zhejiang province
+						</p>
+					</div>
+				</div>
+				<div class="code"></div>
+			</div>
+			<div class="Copyright-border"></div>
+			<div class="Copyright">
+				<span>© COPYRIGHT  ZHEJIANG CHUANGDI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ALL RIGHT RESERVED </span>
+				<span class="Copyright-Newedge">Powered by：<a target="_blank" href="http://www.2000new.com/ ">Newedge</a></span>
+			</div>
+		</div>
+		<script>
+			$(".nav-text").mouseenter(function() {
+				$(this).children("a").addClass("nav-text-active")
+				$(this).mouseleave(function() {
+					$(this).children("a").removeClass("nav-text-active")
+				})
+			})
+			$(".up-menu").mouseenter(function() {
+				$(this).children(".down-menu").slideDown(1000)
+				$(".up-menu").mouseleave(function() {
+					$(this).children(".down-menu").stop(true, true).slideUp(1000)
+				})
+			})
+			$(".down-menu>li>a").mouseenter(function() {
+				$(this).css("color", "#7abefc")
+				$(this).mouseleave(function() {
+					$(this).css("color", "white")
+				})
+			})
+		</script>
+	</body>
+
+</html>

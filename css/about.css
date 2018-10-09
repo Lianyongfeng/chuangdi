@@ -1,0 +1,334 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    background: #FFFFFF;
+    width: 100%;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+input, button, select, textarea {
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+input:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.space{
+    width: 40%;
+}
+.search-box{
+    display: flex;
+}
+.search-text{
+    width: 260px;
+    height: 36px;
+    border: 2px solid #3d85c6;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.search-button{
+    background: #3d85c6;
+    width: 74px;
+    height: 36px;
+    border: none;
+}
+.nav-wrapper{
+    background: #3d85c6;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px -2px  #000;
+    z-index: 1000;
+    position: relative;
+}
+.nav-cd{
+    width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+.nav-cd>.nav-text{
+    display: inline-block;
+    margin-left: -5px;
+    text-align: center;
+}
+.nav-cd>li>a{
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial;
+    padding: 12px 36px;
+}
+#nav-text-active{
+    background: #7abefc;
+}
+.nav-text-active{
+    background: #7abefc;
+}
+.up-menu{
+    position: relative;
+}
+.down-menu{
+    list-style: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+.down-menu>li{
+    text-align: center;
+    padding: 12px 0;
+    background: rgba(0,0,0,0.4);
+    width: 100%;
+}
+.down-menu>li>a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.down-menu>li:last-child{
+    margin-top: 2px;
+}
+.body{
+	margin-top: 140px;
+}
+.body-bg{
+    width: 100%;
+    height: 290px;
+    background: url("../img/about-bg.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.about-content{
+    width: 1200px;
+    margin: 0 auto;
+    height: 1130px;
+}
+.content-nav{
+    margin-top: 20px;
+    height: 20px;
+    width: 150px;
+}
+.content-nav>li{
+    display: inline-block;
+}
+.content-nav>li>a:hover{
+    text-decoration: none;
+}
+.glyphicon-home{
+    color: #999999;
+    font-size: 11px;
+    line-height: 20px;
+}
+.content-nav-home>a{
+    color: #999999;
+    font-size: 14px;
+    line-height: 20px;
+}
+.content-nav-Symbol{
+    color: #999999;
+}
+.about-content-body{
+    margin-top: 20px;
+}
+.about-content-body{
+    display: flex;
+}
+.about-content-body-left{
+    width: 220px;
+}
+.about-content-body-left-nav{
+    width: 220px;
+    height: 72px;
+    background: url("../img/body-nav.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px 5px 0 0;
+}
+.about-content-body-left-nav>a{
+    font-size: 24px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 4px 10px;
+    line-height: 72px;
+    box-sizing: border-box;
+}
+.about-content-body-left-nav-border{
+    width: 100%;
+    height: 5px;
+    background: #7abefc;
+}
+.about-content-body-left-nav-Submenu{
+    width: 100%;
+    height: 50px;
+    background: #3d85c6;
+
+}
+.about-content-body-left-nav-Submenu>a{
+    font-family: Arial;
+    color: #ffffff;
+    line-height: 50px;
+    padding: 16px 10px;
+    box-sizing: border-box;
+}
+.about-content-body-right-nav{
+    display: flex;
+    align-items: center;
+}
+.about-content-body-right-border-one{
+    width: 4px;
+    height: 30px;
+    background: #3d85c6;
+}
+.about-content-body-right-text{
+    padding: 0 12px;
+    color: #3d85c6;
+    font-size: 20px;
+    font-family: Arial;
+}
+.about-content-body-right-border-two{
+    width: 820px;
+    height: 1px;
+    background: #dcdcdc;
+}
+.about-content-body-right{
+    padding-left: 48px;
+    box-sizing: border-box;
+    width: 980px;
+}
+.about-content-body-right-about{
+    width: 930px;
+    height: 400px;
+    background: url("../img/about-body-bg.jpg") no-repeat;
+    background-size: 100% 100%;
+    margin-top: 26px;
+    position: relative;
+}
+.about-content-body-right-text-wrapper{
+    width: 930px;
+    text-align: center;
+    margin-top: 26px;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 200%;
+}
+.about-content-body-right-text-two{
+    margin-top: 40px;
+}
+.about-content-logo{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 90px auto;
+    font-family: Arial;
+}
+.company-logo{
+    width: 88px;
+    height: 88px;
+    background: url("../img/about-company-logo.png") #3d85c6 no-repeat center;
+    border-radius: 50% ;
+    margin: 0 auto;
+}
+.money-logo{
+    width: 88px;
+    height: 88px;
+    background: url("../img/about-money-logo.png") #3d85c6 no-repeat center;
+    border-radius: 50% ;
+    margin: 0 auto;
+}
+.company-logo-text{
+    margin-top: 10px;
+}
+.company-logo-num{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #3d85c6;
+}
+.footer{
+    width: 100%;
+    background: #333333;
+    height: 220px;
+}
+.footer-content{
+    width: 1200px;
+    margin: 0 auto;
+    height: 182px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone-logo{
+    width: 96px;
+    height: 96px;
+    background: url("../img/phone.png") no-repeat;
+    background-size: 100% 100%;
+}
+.footer-content-left{
+    display: flex;
+    align-items: center;
+    color: #e5e5e5;
+    font-family: Arial;
+    height: 182px;
+    margin-left: 72px;
+    font-size: 18px;
+}
+.contact-information{
+    margin-left: 44px;
+    line-height: 180%;
+}
+.tel-num{
+    font-size: 32px;
+}
+.code {
+    width: 106px;
+    height: 106px;
+    background: url("../img/cade.jpg") no-repeat;
+    background-size: 100% 100%;
+    border-radius: 6px;
+    margin-right: 72px;
+}
+.Copyright-border{
+    width: 100%;
+    height: 1px;
+    background: #5c5c5c;
+}
+.Copyright{
+    width: 1200px;
+    margin: 7px auto;
+    color: #ffffff;
+    position: relative;
+}
+.Copyright-Newedge{
+    position: absolute;
+    right: 0;
+}
+.Copyright-Newedge>a{
+    color: #ffffff;
+}
+.more-active:hover{
+    background: #3d85c6;
+}
+.more-active:hover a{
+    color: #ffffff;
+}
